@@ -1,0 +1,17 @@
+{
+  "name": "@zoniva/db",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "prisma generate",
+    "migrate:dev": "prisma migrate dev",
+    "migrate:deploy": "prisma migrate deploy"
+  },
+  "dependencies": {
+    "@prisma/client": "catalog:"
+  },
+  "devDependencies": {
+    "dotenv": "catalog:",
+    "prisma": "7.10.1"
+  }
+}
