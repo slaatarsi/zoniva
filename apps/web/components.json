@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "radix-nova",
+  "rsc": false,
+  "tsx": true,
+  "tailwind": {
+    "config": "",
+    "css": "../../packages/ui/src/styles/globals.css",
+    "baseColor": "neutral",
+    "cssVariables": true
+  },
+  "iconLibrary": "lucide",
+  "aliases": {
+    "components": "#/components",
+    "hooks": "#/hooks",
+    "lib": "#/lib",
+    "utils": "@zoniva/ui/lib/utils",
+    "ui": "@zoniva/ui/components"
+  },
+  "rtl": false,
+  "menuColor": "default",
+  "menuAccent": "subtle",
+  "registries": {
+    "@shadcn-map": "http://shadcn-map.vercel.app/r/{name}.json"
+  }
+}

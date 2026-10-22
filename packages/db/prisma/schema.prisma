@@ -1,6 +1,15 @@
+// Cloudflare Worker client (used by apps/api).
 generator client {
   provider = "prisma-client"
   output   = "../src/generated/prisma"
+  runtime  = "workerd"
+}
+
+// Node client for CLI tooling only (seed); workerd output imports .wasm?module, which Node cannot load.
+generator node {
+  provider = "prisma-client"
+  output   = "../src/generated/node"
+  runtime  = "nodejs"
 }
 
 datasource db {

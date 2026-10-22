@@ -36,3 +36,4 @@ dist-ssr
 .wrangler
 .dev.vars
 packages/db/src/generated
+.playwright-mcp/

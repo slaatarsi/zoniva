@@ -1,0 +1,48 @@
+{
+  "name": "@zoniva/ui",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./globals.css": "./src/styles/globals.css",
+    "./lib/*": "./src/lib/*.ts",
+    "./components/*": "./src/components/*.tsx",
+    "./hooks/*": "./src/hooks/*.ts"
+  },
+  "dependencies": {
+    "@fontsource-variable/geist": "catalog:",
+    "@maplibre/maplibre-gl-leaflet": "catalog:",
+    "class-variance-authority": "catalog:",
+    "cmdk": "catalog:",
+    "cn": "catalog:",
+    "leaflet": "catalog:",
+    "leaflet-draw": "catalog:",
+    "leaflet.fullscreen": "catalog:",
+    "leaflet.markercluster": "catalog:",
+    "lucide-react": "catalog:",
+    "maplibre-gl": "^5",
+    "next-themes": "catalog:",
+    "radix-ui": "catalog:",
+    "react-leaflet": "catalog:",
+    "react-leaflet-markercluster": "catalog:",
+    "shadcn": "catalog:",
+    "sonner": "catalog:",
+    "tw-animate-css": "catalog:",
+    "vaul": "catalog:"
+  },
+  "devDependencies": {
+    "@types/geojson": "catalog:",
+    "@types/leaflet": "catalog:",
+    "@types/leaflet-draw": "catalog:",
+    "@types/leaflet.markercluster": "catalog:",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "react": "catalog:",
+    "react-dom": "catalog:",
+    "tailwindcss": "catalog:"
+  },
+  "peerDependencies": {
+    "react": "^19",
+    "react-dom": "^19"
+  }
+}

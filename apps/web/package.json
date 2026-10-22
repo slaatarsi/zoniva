@@ -12,21 +12,27 @@
     "generate-routes": "tsr generate"
   },
   "dependencies": {
+    "@orpc/client": "catalog:",
+    "@orpc/contract": "catalog:",
     "@tailwindcss/vite": "^4.1.18",
-    "@tanstack/react-devtools": "0.10.13",
+    "@tanstack/react-form": "catalog:",
     "@tanstack/react-query": "5.104.5",
-    "@tanstack/react-query-devtools": "5.104.5",
     "@tanstack/react-router": "1.170.46",
-    "@tanstack/react-router-devtools": "1.167.2",
     "@tanstack/react-router-ssr-query": "1.167.3",
     "@tanstack/react-start": "1.169.4",
+    "@tanstack/react-table": "catalog:",
+    "@zoniva/auth": "workspace:*",
+    "@zoniva/contracts": "workspace:*",
+    "@zoniva/ui": "workspace:*",
+    "lucide-react": "catalog:",
     "nitro": "3.0.260610-beta",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "tailwindcss": "^4.1.18"
+    "sonner": "catalog:",
+    "tailwindcss": "^4.1.18",
+    "zod": "catalog:"
   },
   "devDependencies": {
-    "@tanstack/devtools-vite": "0.8.5",
     "@tanstack/router-cli": "^1.132.0",
     "@types/node": "catalog:",
     "@types/react": "^19.2.0",

@@ -1,0 +1,17 @@
+{
+  "name": "@zoniva/auth",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/auth.ts",
+    "./client": "./src/auth-client.ts"
+  },
+  "dependencies": {
+    "@zoniva/db": "workspace:*",
+    "better-auth": "catalog:"
+  },
+  "devDependencies": {
+    "typescript": "catalog:",
+    "vite": "catalog:"
+  }
+}

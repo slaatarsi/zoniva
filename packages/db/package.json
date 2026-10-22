@@ -2,16 +2,25 @@
   "name": "@zoniva/db",
   "private": true,
   "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
   "scripts": {
     "generate": "prisma generate",
     "migrate:dev": "prisma migrate dev",
-    "migrate:deploy": "prisma migrate deploy"
+    "migrate:deploy": "prisma migrate deploy",
+    "postinstall": "prisma generate",
+    "seed": "prisma db seed"
   },
   "dependencies": {
+    "@prisma/adapter-pg": "catalog:",
     "@prisma/client": "catalog:"
   },
   "devDependencies": {
+    "@types/node": "catalog:",
+    "better-auth": "catalog:",
     "dotenv": "catalog:",
-    "prisma": "7.10.1"
+    "prisma": "7.10.1",
+    "tsx": "catalog:"
   }
 }

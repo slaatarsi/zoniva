@@ -5,10 +5,19 @@
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
-    "cf-typegen": "wrangler types"
+    "cf-typegen": "wrangler types",
+    "test": "vp test run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@orpc/server": "catalog:",
+    "@zoniva/auth": "workspace:*",
+    "@zoniva/contracts": "workspace:*",
+    "@zoniva/db": "workspace:*"
   },
   "devDependencies": {
     "typescript": "catalog:",
+    "vite-plus": "catalog:",
     "wrangler": "catalog:"
   }
 }
