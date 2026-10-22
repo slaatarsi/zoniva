@@ -5,6 +5,9 @@ packages:
 allowBuilds:
   esbuild: true
   lightningcss: true
+  '@prisma/engines': true
+  prisma: true
+  workerd: true
 
 catalog:
   '@fontsource-variable/geist': ^5.3.0

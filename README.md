@@ -182,6 +182,6 @@ Native-feeling mobile acceptance also requires real iOS Safari and Android Chrom
 | Demo account | Planned default: `demo@delivery.test`; not seeded |
 | Demo password | Set via `SEED_USER_PASSWORD` and share securely; never publish here |
 | Challenge start date/time/timezone | Not recorded |
-| AI assistance used so far | Coding assistant for requirements and repository documentation; no generated application implementation yet |
+| AI tools used | See [AITOOLS.md](./AITOOLS.md) |
 
 Replace pending setup/deployment instructions with tested commands and record verified release details as implementation progresses.
